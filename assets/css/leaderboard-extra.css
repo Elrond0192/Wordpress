@@ -1,0 +1,16 @@
+.hm-metric-primary  { font-weight:700; font-family:'JetBrains Mono',monospace; letter-spacing:-.02em; }
+.hm-val-hi          { color: #22c55e; }
+.hm-val-lo          { color: #ef4444; }
+
+.hm-pct-bar-wrap    { display:flex; align-items:center; gap:.5rem; min-width:90px; }
+.hm-pct-bar         { height:6px; border-radius:3px; flex-shrink:0; }
+.hm-pct-val         { font-size:.78rem; color:var(--hm-text-2); font-variant-numeric:tabular-nums; }
+
+.hm-player-cell a   { color:var(--hm-text-1); font-weight:600; text-decoration:none; }
+.hm-player-cell a:hover { color:var(--hm-accent); text-decoration:underline; }
+
+.hm-rank            { color:var(--hm-text-2); font-size:.85rem; width:32px; text-align:center; }
+.hm-loading-cell,
+.hm-empty-cell,
+.hm-error-cell      { padding:2rem; text-align:center; color:var(--hm-text-2); }
+.hm-error-cell      { color:#ef4444; }
