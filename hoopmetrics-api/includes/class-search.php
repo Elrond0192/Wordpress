@@ -21,8 +21,8 @@ class HM_Search {
                 'nation'     => $nation,
                 'year'       => $year,
                 'url'        => $type === 'player'
-                    ? "?page=player&id=" . urlencode(hm_public_id((string)$r['Id'],$nation,$year,'player')) . "&nation={$nation}&year={$year}"
-                    : "?page=team&id="   . urlencode(hm_public_id((string)$r['Id'],$nation,$year,'team'))   . "&nation={$nation}&year={$year}",
+                    ? "?page=player&id=" . urlencode(hm_public_id((string)$r['Id'],$nation,$year,'player'))
+                    : "?page=team&id="   . urlencode(hm_public_id((string)$r['Id'],$nation,$year,'team')),
             ];
         }, $rows);
     }
